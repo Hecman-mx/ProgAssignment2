@@ -5,6 +5,13 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   
+  matriz_inv <- NULL
+  
+  set <- function(y) {
+    matriz <<- y
+    matriz_inv <<- NULL
+  }
+  
 }
 
 
